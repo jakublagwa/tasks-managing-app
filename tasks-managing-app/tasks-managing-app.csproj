@@ -62,12 +62,15 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Src\Data\TaskManager.cs" />
     <Compile Include="Src\MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Src\Model\Priority.cs" />
     <Compile Include="Src\Model\Task.cs" />
     <Compile Include="Src\Model\TaskList.cs" />
+    <Compile Include="Src\View\AddTaskPage.cs" />
+    <Compile Include="Src\View\TaskPage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -107,9 +110,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
-    <Folder Include="Src\Data\" />
     <Folder Include="Src\Utils\" />
-    <Folder Include="Src\View\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="28.0.0.3" />
