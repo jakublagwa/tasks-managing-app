@@ -708,10 +708,14 @@
           "Xamarin.Android.Support.CustomTabs": "28.0.0.3"
         },
         "compile": {
-          "lib/monoandroid90/Xamarin.Essentials.dll": {}
+          "lib/monoandroid90/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
         },
         "runtime": {
-          "lib/monoandroid90/Xamarin.Essentials.dll": {}
+          "lib/monoandroid90/Xamarin.Essentials.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       }
     }
@@ -1484,26 +1488,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jakub\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\kklag\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jakub\\VisualStudioWorkspaces\\tasks-managing-app\\tasks-managing-app\\tasks-managing-app.csproj",
+      "projectUniqueName": "C:\\Users\\kklag\\Source\\Repos\\tasks-managing-app\\tasks-managing-app\\tasks-managing-app.csproj",
       "projectName": "tasks-managing-app",
-      "projectPath": "C:\\Users\\Jakub\\VisualStudioWorkspaces\\tasks-managing-app\\tasks-managing-app\\tasks-managing-app.csproj",
-      "packagesPath": "C:\\Users\\Jakub\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jakub\\VisualStudioWorkspaces\\tasks-managing-app\\tasks-managing-app\\obj\\",
+      "projectPath": "C:\\Users\\kklag\\Source\\Repos\\tasks-managing-app\\tasks-managing-app\\tasks-managing-app.csproj",
+      "packagesPath": "C:\\Users\\kklag\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kklag\\Source\\Repos\\tasks-managing-app\\tasks-managing-app\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Jakub\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\kklag\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "monoandroid90"
