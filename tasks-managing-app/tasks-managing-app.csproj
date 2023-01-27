@@ -62,6 +62,7 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Src\Data\DatabaseHandler.cs" />
     <Compile Include="Src\Data\TaskManager.cs" />
     <Compile Include="Src\MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
