@@ -8,7 +8,7 @@ class DatabaseHandler
     public DatabaseHandler()
     {
         string connectionString = "Server=localhost;Database=mydatabase;Uid=root;Pwd=password;";
-        connection = new MySqlConnection(connectionString)
+        connection = new MySqlConnection(connectionString);
     }
 
     public void OpenConnection()
@@ -18,7 +18,10 @@ class DatabaseHandler
 
     public void CloseConnection()
     {
-        connection.Close();
+        if (connection != null && connection.State == System.Data.ConnectionState.Open) ;
+        {
+            connection.Close();
+        }
     }
 
     public bool TestConnection()
